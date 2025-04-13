@@ -178,7 +178,7 @@ def predict_future_prices(
 # Path to your logo image
 encoded_logo = "tensorflow.png"
 main_bg_ext = "png"
-main_bg = "Picture3.png "
+main_bg = "Picture3.png"
 
 
 if st.session_state.framework == "lstm":
