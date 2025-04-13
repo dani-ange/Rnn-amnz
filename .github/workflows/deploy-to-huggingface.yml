@@ -54,8 +54,8 @@ jobs:
         run: |
           git lfs track "*.png"
           git lfs track "*.h5"
-          git lfs migrate import --everything --include "*.png"
-          git lfs migrate import --everything --include "*.h5"
+          yes y | git lfs migrate import --include="*.png,*.h5"
+
           git add .gitattributes
 
       # Stage and commit all changes
