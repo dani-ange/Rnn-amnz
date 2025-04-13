@@ -6,3 +6,4 @@ scikit-learn
 streamlit
 huggingface_hub
 keras
+tensorflow
