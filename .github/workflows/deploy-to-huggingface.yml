@@ -3,7 +3,7 @@ name: Deploy Streamlit App to Hugging Face Space
 on:
   push:
     branches:
-      - master   # Adjust to your main branch (could be 'main' or 'master')
+      - main   # Adjust to your main branch (could be 'main' or 'master')
 
 jobs:
   deploy:
@@ -64,4 +64,4 @@ jobs:
       # Push to Hugging Face Space
       - name: Push to Hugging Face Space
         run: |
-          git push space master --force
+          git push space main --force
