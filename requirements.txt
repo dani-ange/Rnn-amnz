@@ -3,7 +3,7 @@ pandas
 numpy
 yfinance
 scikit-learn
-streamlit
+streamlit==1.41.1
 huggingface_hub
 keras
 tensorflow
