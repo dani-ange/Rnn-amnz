@@ -39,6 +39,8 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           huggingface-cli login --token $HF_TOKEN
+          git fetch --unshallow
+
 
       # Add remote for Hugging Face Space repository
       - name: Add Hugging Face remote
