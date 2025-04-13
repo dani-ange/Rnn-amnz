@@ -1,0 +1,7 @@
+matplotlib
+pandas
+numpy
+yfinance
+scikit-learn
+streamlit
+huggingface_hub
