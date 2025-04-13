@@ -1,7 +1,5 @@
 import streamlit as st
 import yfinance as yf
-from streamlit_modal import Modal
-import streamlit.components.v1 as components
 
 # Set the page layout
 st.set_page_config(layout="wide")
